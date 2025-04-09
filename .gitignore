@@ -176,3 +176,5 @@ cython_debug/
 
 # project specific
 model_cache/**
+
+output/

@@ -14,6 +14,12 @@ langchain-community = "^0.3.19"
 pydantic = "^2.10.6"
 pypdf2 = "^3.0.1"
 spacy = "^3.8.4"
+openai = "^1.72.0"
+transformers = "^4.51.1"
+torch = "^2.6.0"
+tqdm = "^4.67.1"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -28,4 +34,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 # generate-patch = "pipeline.cmdline:generate_patch_from_csv"
-pipeline = "policy_pipeline.entrypoint:run_policy_pipeline"
+pipeline = "policy_pipeline.entrypoint:run_summarization_pipeline"
